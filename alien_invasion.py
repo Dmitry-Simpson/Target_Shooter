@@ -148,7 +148,6 @@ class AlienInvasion:
 	def _target_miss(self):
 		if self.stats.target_left > 0:
 			self.stats.target_left -= 1
-			print(self.stats.target_left)
 
 		else:	
 			self.stats.game_active = False
